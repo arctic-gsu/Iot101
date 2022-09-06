@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <ThingsBoard.h>
 
-#define WIFI_AP "Aluth"
-#define WIFI_PASSWORD "Sumanadasa1947"
+#define WIFI_AP "XXXXXX"
+#define WIFI_PASSWORD "XXXXXXXXXXXX"
 
-#define TOKEN "PprXRfOajb2fE1g03iXO"
-char thingsboardServer[] = "192.168.0.204";
+#define TOKEN "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+char thingsboardServer[] = "XXX.XXX.XXX.XXX";
 WiFiClient wifiClient;
 ThingsBoard tb(wifiClient);
 long data1;
